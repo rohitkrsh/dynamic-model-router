@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dynamic-model-router"
+version = "0.1.0"
+description = "A lightweight dynamic model router for directing prompts to suitable LLM providers"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Rohit Krishna" }]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+dynamic-model-router = "dynamic_model_router.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

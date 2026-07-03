@@ -1,3 +1,13 @@
+Metadata-Version: 2.4
+Name: dynamic-model-router
+Version: 0.1.0
+Summary: A lightweight dynamic model router for directing prompts to suitable LLM providers
+Author: Rohit Krishna
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+
 # dynamic-model-router
 
 Dynamic model routing is a lightweight Python project for selecting the most suitable LLM provider for a user request. The router uses simple rule-based heuristics so it is easy to understand, extend, and use as a portfolio project or starting point for more advanced routing pipelines.
