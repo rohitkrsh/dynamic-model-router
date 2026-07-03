@@ -1,6 +1,7 @@
 README.md
 pyproject.toml
 dynamic_model_router/__init__.py
+dynamic_model_router/api.py
 dynamic_model_router/cli.py
 dynamic_model_router/router.py
 dynamic_model_router.egg-info/PKG-INFO
